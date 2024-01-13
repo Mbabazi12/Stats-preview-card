@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: hsl(243, 45%, 9%);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding-top: 130px;
+    padding-left: 170px;
+}
+.card{
+    width: 500px;
+    height: 446px;
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text{
+    font-family: arial;
+    width: 400px;
+    color: hsl(0, 0%, 100%);
+    padding: 50px;
+    font-size: larger;
+}
+.text h2{
+    width: 350px;
+}
+.text .sight{
+    color: hsl(277, 64%, 60%);
+}
+.text .par{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 17px;
+    width: 400px;
+    line-height: 25px;
+    padding-top: 25px;
+    color: hsla(0, 0%, 70%, 0.75);
+}
+.container{
+    padding-top: 100px;
+}
+.headers-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+    grid-gap: 30px;
+}
+.par-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, max-content));
+    grid-gap: 30px;
+    font-size: 12px;
+    padding-top: 7px;
+    color: hsla(0, 0%, 70%, 0.75);
+    font-family: serif;
+    font-weight: 600;
+    letter-spacing: 1px
+}
+.img-cont{
+    position: absolute;
+    padding-left: 500px;
+}
+.image{
+    filter: hue-rotate(270px) saturate(150%);
+  }
